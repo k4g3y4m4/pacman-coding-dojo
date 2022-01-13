@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: silver;
+}
+
+
+.background-game{
+    background-color: black;
+    width: 1200px;
+    height: 400px;
+}
+
+.row{
+    height: 20px;
+}
+
+
+.brick{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    display: inline-block;
+
+}
+.coin{
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+    border-radius: 50%;
+    overflow:hidden;
+    display: inline-block;
+}
+
+.cell{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    display: inline-block;
+}
+
+.packman{
+    width: 20px;
+    height: 20px;
+    background: url('assets/packman.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+}
